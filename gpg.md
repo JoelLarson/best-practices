@@ -23,13 +23,14 @@ keyserver hkp://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion
 
 ## Create
 
-### Generate primary key
-
 The primary key is meant to be private. Derived keys (like signing key) are used for public consumption.
 
-Signing key
-Encrypt key
-Authenticate key
+* Primary key (Certify)
+* Signing key (Sign)
+* Encrypt key (Encrypt)
+* Authenticate key (Authenticate)
+
+### Generate primary key
 
 ```
 gpg --expert --full-generate-key
@@ -101,6 +102,8 @@ gpg --expert --edit-key <email-address>
 
 # Move mouse around screen, drag windows, etc to create entropy.
 ```
+
+## Manage keys
 
 ### Delete a subkey
 ```
