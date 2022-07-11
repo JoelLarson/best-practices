@@ -1,6 +1,6 @@
 # Installation notes
 
-When installing Python 3.10 (other versions untested), the Tinkerboard does not provide the correct libraries to build with openssl. To resolve this, the following can be done:
+When installing Python 3.10 (other versions untested) with pyenv, the Tinkerboard does not provide the correct libraries to build with openssl. To resolve this, the following can be done:
 
 ```
 mkdir -p $HOME/Repositories
